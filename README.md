@@ -22,3 +22,20 @@ A modular Spring Boot application demonstrating various AI-powered features usin
 
 - **Configurable AI Beans**
   - `AIBeans.java`: Centralizes configuration for all AI components, making it easy to manage and extend AI features.
+
+- **MultiModal Features**
+  - `ImageDetectionController.java`: Detects and processes image content using AI models.
+  - `ContentDetectionController.java`: Detects and processes text or content using AI models.
+
+- **Tools Integration**
+  - `@Tool` in Spring AI: The `@Tool` annotation is used to define and register custom tools that can be invoked by AI models to perform specific tasks, such as fetching data or executing business logic. This enables seamless integration of external functionalities into AI workflows.
+  - `WeatherToolController.java`: Provides weather-related AI features and endpoints.
+  - `WeatherTool.java`: Implements the mock logic for weather tool integration.
+
+---
+
+## Notes
+
+- For reference on how to integrate with OpenAI, see: [danvega/spring-ai-workshop](https://github.com/danvega/spring-ai-workshop)
+- For advanced or more features like Retrieval-Augmented Generation (RAG), refer to the official Spring AI documentation.
+- This entire project is implemented using Vertex AI Gemini as the underlying model provider.
