@@ -34,7 +34,7 @@ A modular Spring Boot application demonstrating various AI-powered features usin
 
 ---
 
-## Notes
+## Note :
 
 - For reference on how to integrate with OpenAI, see: [danvega/spring-ai-workshop](https://github.com/danvega/spring-ai-workshop)
 - For advanced or more features like Retrieval-Augmented Generation (RAG), refer to the official Spring AI documentation.
